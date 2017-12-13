@@ -10,6 +10,6 @@ public class RestKyleController {
     @RequestMapping("/greeting")
     public String Greeting(@RequestParam(value="name", defaultValue = "World") String name) {
 
-        return name + " hello";
+        return name + " hello all";
     }
 }
